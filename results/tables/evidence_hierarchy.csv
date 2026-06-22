@@ -1,0 +1,34 @@
+track_name,model_id,r2,rmse,mae,n,evidence_class,count_as_independent_headline,decision_reason
+Random_Promoter_DREAM_base_track_5,T04_observable_alignment_proxy,0.6491104448680286,0.4449102527550926,0.337080594241646,14221,secondary_support,no,related/duplicate evidence; do not count as independent headline
+Random_Promoter_DREAM_base_track_2,T04_observable_alignment_proxy,0.6491104448680286,0.4449102527550926,0.337080594241646,14221,secondary_support,no,related/duplicate evidence; do not count as independent headline
+Random_Promoter_DREAM_base_track_18,T04_observable_alignment_proxy,0.6126186643836083,0.4721022003351542,0.3602559585627627,4000,secondary_support,no,related/duplicate evidence; do not count as independent headline
+Random_Promoter_DREAM_base_track_13,T04_observable_alignment_proxy,0.6126186643836083,0.4721022003351542,0.3602559585627627,4000,secondary_support,no,related/duplicate evidence; do not count as independent headline
+Random_Promoter_DREAM_base_track_9,T04_observable_alignment_proxy,0.6126186643836083,0.4721022003351542,0.3602559585627627,4000,secondary_support,no,related/duplicate evidence; do not count as independent headline
+PARM_GSE301246_held_out_context_track_5,M08_dynamic_condition_weighted_char6,0.4307546686640491,21.72021548691409,16.402831130941742,10,exclude_from_headline,no,small-n branch; keep only in secondary_support or sensitivity table
+PARM_GSE301246_held_out_context_track,T05_uncertainty_ensemble_proxy,0.3955993351255749,49.56370603960791,28.49090057274019,1500,primary_headline,yes,positive context/transfer evidence
+Random_Promoter_DREAM_base_track_7,T04_observable_alignment_proxy,0.2876585702977691,1.9948825825181584,1.5436625248929747,30000,primary_headline,yes,large-n positive base/reference evidence
+Random_Promoter_DREAM_base_track_4,T04_observable_alignment_proxy,0.284423689686203,2.0155352946950784,1.5614381708980112,30000,primary_headline,yes,large-n positive base/reference evidence
+Random_Promoter_DREAM_base_track_3,T04_observable_alignment_proxy,0.2813359087852787,2.006696524468721,1.5577256799271724,30000,primary_headline,yes,large-n positive base/reference evidence
+Random_Promoter_DREAM_base_track_6,T04_observable_alignment_proxy,0.2807902429077594,2.0063116944466635,1.556483215049511,30000,primary_headline,yes,large-n positive base/reference evidence
+Random_Promoter_DREAM_base_track_16,T04_observable_alignment_proxy,0.2796569209540137,2.0221148546846948,1.5613071049224037,29852,primary_headline,yes,large-n positive base/reference evidence
+Random_Promoter_DREAM_base_track_15,T04_observable_alignment_proxy,0.2794283772363876,2.0234222281793,1.5607145566655385,20000,primary_headline,yes,large-n positive base/reference evidence
+Random_Promoter_DREAM_base_track_10,T04_observable_alignment_proxy,0.2762271545149858,2.00934111379276,1.547296210214178,20000,primary_headline,yes,large-n positive base/reference evidence
+Random_Promoter_DREAM_base_track_19,T04_observable_alignment_proxy,0.2739614602244904,2.028982364864745,1.5662757035199997,20000,secondary_support,no,related/duplicate evidence; do not count as independent headline
+Random_Promoter_DREAM_base_track_14,T04_observable_alignment_proxy,0.2739614602244904,2.028982364864745,1.5662757035199997,20000,secondary_support,no,related/duplicate evidence; do not count as independent headline
+Random_Promoter_DREAM_base_track_8,T02_selection_potential_proxy,0.2733663743201212,2.0487215094729474,1.584091330581663,4000,primary_headline,yes,large-n positive base/reference evidence
+Random_Promoter_DREAM_base_track_12,T02_selection_potential_proxy,0.2445400023666976,2.0630933023798232,1.6035964094548667,4000,primary_headline,yes,large-n positive base/reference evidence
+Random_Promoter_DREAM_base_track_20,T02_selection_potential_proxy,0.2304844127903973,2.0792260961963804,1.6087813519791463,4000,secondary_support,no,related/duplicate evidence; do not count as independent headline
+Random_Promoter_DREAM_base_track_11,T02_selection_potential_proxy,0.2304844127903973,2.0792260961963804,1.6087813519791463,4000,secondary_support,no,related/duplicate evidence; do not count as independent headline
+Random_Promoter_DREAM_base_track_17,T02_selection_potential_proxy,0.2304844127903973,2.0792260961963804,1.6087813519791463,4000,secondary_support,no,related/duplicate evidence; do not count as independent headline
+GSE221384_context_track,T04_observable_alignment_proxy,0.2117140378824361,1.609996750848716,1.326798064371269,37500,secondary_support,no,external/exploratory support; not primary headline
+PARM_GSE301246_held_out_context_track_4,M08_dynamic_condition_weighted_char6,0.1521294349282176,102.81180221871176,67.07527625454068,10,exclude_from_headline,no,small-n branch; keep only in secondary_support or sensitivity table
+PARM_GSE301246_held_out_context_track_2,M03_GC_length_multi_char6,0.145641794700057,116.54328796478576,63.96911116422266,37500,primary_headline,yes,positive context/transfer evidence
+PARM_GSE301246_held_out_context_track_3,M03_GC_length_multi_char6,0.142208150345333,219.26877502120715,146.30192556490076,10,exclude_from_headline,no,small-n branch; keep only in secondary_support or sensitivity table
+PARM_GSE301246_held_out_context_track_7,M06_GC_length_condition_gated_char6,0.0594498016575664,13344.944910453003,11271.332305820988,10,exclude_from_headline,no,small-n branch; keep only in secondary_support or sensitivity table
+PARM_GSE301246_held_out_context_track_TaskB,T01_mutational_prior_proxy,0.0138868353099598,0.6525932461357723,0.5098057222025701,133,boundary_failure,no,TaskB is weak or near-zero; use as transfer boundary
+PARM_GSE301246_Task_C_stress_test,M06_GC_length_condition_gated_char6,-0.0388875635281249,0.1536321773004771,0.0772293180340149,32976,boundary_failure,no,stress-test branch; use as boundary evidence
+PARM_GSE301246_held_out_context_track_6,M03_GC_length_multi_char6,-0.1360090119623944,32.250339703517696,27.223892077418647,10,exclude_from_headline,no,small-n branch; keep only in secondary_support or sensitivity table
+Random_Promoter_DREAM_base_track,M03_GC_length_multi_char6,-0.3421549942831152,6.385826226084235,4.538658898018887,89562,boundary_failure,no,negative R2; use as explicit failure/boundary result
+extra_test_maude_shift_predictions_v0,M09_dynamic_condition_weighted_multi_char6,-12.164092131389452,7.585458968795539,7.4293832650539935,20000,exploratory_only,no,prediction-derived or extra branch; not headline evidence
+extra_test_inregime_predictions_v0,M09_dynamic_condition_weighted_multi_char6,-20.82777179096411,7.007647369177582,6.893101972183899,20000,exploratory_only,no,prediction-derived or extra branch; not headline evidence
+extra_val_inregime_predictions_v0,M09_dynamic_condition_weighted_multi_char6,-20.89873013064813,6.95651664901361,6.847012696474755,20000,exploratory_only,no,prediction-derived or extra branch; not headline evidence

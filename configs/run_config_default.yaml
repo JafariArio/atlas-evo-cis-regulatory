@@ -1,0 +1,11 @@
+random_seed: 42
+kmer_size: 6
+select_top_char6: 128
+interaction_source_k: 64
+max_multi_interactions: 512
+bootstrap_repeats:
+  primary_audit: 1000
+  model_ceiling: 300
+  nonlinear_confirmation: 500
+permutation_control:
+  n_permutations: 500

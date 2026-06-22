@@ -1,0 +1,34 @@
+code,dataset_source,track_name,n_processed_rows,n_unique_sequences,train_eval_split,split_rule,evidence_tier,interpretation
+T01,GSE221384-derived context branch,GSE221384_context_track,150000,12499,112500 / 37500,group shuffle by condition,secondary_support_related_proxy,external/exploratory support
+T02,PARM/GSE301246,PARM_GSE301246_Task_C_stress_test,148392,16486,115416 / 32976,group shuffle by condition,boundary_failure,stress-test branch
+T03,GSE221384-derived context branch,PARM_GSE301246_held_out_context_track,6000,500,4500 / 1500,group shuffle by condition,primary_headline_eligible,positive context evidence
+T04,GSE221384-derived context branch,PARM_GSE301246_held_out_context_track_2,150000,12499,112500 / 37500,group shuffle by condition,primary_headline_eligible,positive context evidence
+T05,GSE221384-derived context branch,PARM_GSE301246_held_out_context_track_3,50,50,40 / 10,random split,excluded_sensitivity,small branch
+T06,GSE221384-derived context branch,PARM_GSE301246_held_out_context_track_4,50,50,40 / 10,random split,excluded_sensitivity,small branch
+T07,GSE221384-derived context branch,PARM_GSE301246_held_out_context_track_5,50,50,40 / 10,random split,excluded_sensitivity,small branch
+T08,GSE221384-derived context branch,PARM_GSE301246_held_out_context_track_6,50,50,40 / 10,random split,excluded_sensitivity,small branch
+T09,GSE221384-derived context branch,PARM_GSE301246_held_out_context_track_7,50,50,40 / 10,random split,excluded_sensitivity,small branch
+T10,PARM/GSE301246,PARM_GSE301246_held_out_context_track_TaskB,662,331,529 / 133,random split,boundary_failure,transfer boundary
+T11,Random Promoter DREAM / MAUDE-derived,Random_Promoter_DREAM_base_track,150000,139904,60438 / 89562,provided split column,boundary_failure,negative reference result
+T12,Random Promoter DREAM / MAUDE-derived,Random_Promoter_DREAM_base_track_10,100000,100000,80000 / 20000,random split,primary_headline_eligible,large reference evidence
+T13,Random Promoter DREAM / MAUDE-derived,Random_Promoter_DREAM_base_track_11,20000,20000,16000 / 4000,random split,secondary_support_related_proxy,related evidence
+T14,Random Promoter DREAM / MAUDE-derived,Random_Promoter_DREAM_base_track_12,20000,20000,16000 / 4000,random split,primary_headline_eligible,large reference evidence
+T15,Random Promoter DREAM / MAUDE-derived,Random_Promoter_DREAM_base_track_13,20000,13871,16000 / 4000,random split,secondary_support_related_proxy,related evidence
+T16,Random Promoter DREAM / MAUDE-derived,Random_Promoter_DREAM_base_track_14,100000,100000,80000 / 20000,random split,secondary_support_related_proxy,related evidence
+T17,Random Promoter DREAM / MAUDE-derived,Random_Promoter_DREAM_base_track_15,100000,100000,80000 / 20000,random split,primary_headline_eligible,large reference evidence
+T18,Random Promoter DREAM / MAUDE-derived,Random_Promoter_DREAM_base_track_16,149258,149258,119406 / 29852,random split,primary_headline_eligible,large reference evidence
+T19,Random Promoter DREAM / MAUDE-derived,Random_Promoter_DREAM_base_track_17,20000,20000,16000 / 4000,random split,secondary_support_related_proxy,related evidence
+T20,Random Promoter DREAM / MAUDE-derived,Random_Promoter_DREAM_base_track_18,20000,13871,16000 / 4000,random split,secondary_support_related_proxy,related evidence
+T21,Random Promoter DREAM / MAUDE-derived,Random_Promoter_DREAM_base_track_19,100000,100000,80000 / 20000,random split,secondary_support_related_proxy,related evidence
+T22,Random Promoter DREAM / MAUDE-derived,Random_Promoter_DREAM_base_track_2,71103,39069,56882 / 14221,random split,secondary_support_related_proxy,related evidence
+T23,Random Promoter DREAM / MAUDE-derived,Random_Promoter_DREAM_base_track_20,20000,20000,16000 / 4000,random split,secondary_support_related_proxy,related evidence
+T24,Random Promoter DREAM / MAUDE-derived,Random_Promoter_DREAM_base_track_3,150000,150000,120000 / 30000,random split,primary_headline_eligible,large reference evidence
+T25,Random Promoter DREAM / MAUDE-derived,Random_Promoter_DREAM_base_track_4,149999,149999,119999 / 30000,random split,primary_headline_eligible,large reference evidence
+T26,Random Promoter DREAM / MAUDE-derived,Random_Promoter_DREAM_base_track_5,71103,39069,56882 / 14221,random split,secondary_support_related_proxy,related evidence
+T27,Random Promoter DREAM / MAUDE-derived,Random_Promoter_DREAM_base_track_6,149999,149999,119999 / 30000,random split,primary_headline_eligible,large reference evidence
+T28,Random Promoter DREAM / MAUDE-derived,Random_Promoter_DREAM_base_track_7,149999,149999,119999 / 30000,random split,primary_headline_eligible,large reference evidence
+T29,Random Promoter DREAM / MAUDE-derived,Random_Promoter_DREAM_base_track_8,20000,20000,16000 / 4000,random split,primary_headline_eligible,large reference evidence
+T30,Random Promoter DREAM / MAUDE-derived,Random_Promoter_DREAM_base_track_9,20000,13871,16000 / 4000,random split,secondary_support_related_proxy,related evidence
+T31,DREAM/MAUDE prediction-derived,extra_test_inregime_predictions_v0,80000,20000,60000 / 20000,group shuffle by condition,prediction_derived_capacity,capacity only
+T32,DREAM/MAUDE prediction-derived,extra_test_maude_shift_predictions_v0,80000,13871,60000 / 20000,group shuffle by condition,prediction_derived_capacity,capacity only
+T33,DREAM/MAUDE prediction-derived,extra_val_inregime_predictions_v0,80000,20000,60000 / 20000,group shuffle by condition,prediction_derived_capacity,capacity only

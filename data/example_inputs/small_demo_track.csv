@@ -1,0 +1,5 @@
+id,sequence,target,split,condition
+demo_1,ACGTACGTACGT,0.2,train,A
+demo_2,GGGGCCCCAAAA,0.8,train,A
+demo_3,TTTTAAAACCCC,0.1,test,B
+demo_4,CGCGATATCGCG,0.6,test,B

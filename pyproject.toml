@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "atlas-evo-cis-regulatory-benchmark"
+version = "1.0.0"
+description = "Reproducibility utilities for an evidence-tiered cis-regulatory benchmark"
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "scikit-learn", "scipy", "pyyaml", "openpyxl"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

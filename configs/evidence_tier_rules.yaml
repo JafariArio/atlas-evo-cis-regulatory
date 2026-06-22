@@ -1,0 +1,15 @@
+independent_context:
+  requires_measured_target: true
+  requires_adequate_eval_size: true
+  excludes_prediction_derived_target: true
+  excludes_direct_duplicate: true
+  excludes_strong_related_branch: true
+  interpretation: transfer-facing evidence
+related_proxy:
+  allows_sequence_or_target_relatedness: true
+  interpretation: representation or proxy support
+prediction_derived_capacity:
+  prediction_derived_target: true
+  interpretation: model-capacity check only
+boundary_or_stress:
+  interpretation: retained to expose benchmark limits

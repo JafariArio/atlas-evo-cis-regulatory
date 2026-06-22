@@ -1,0 +1,6 @@
+code,module,component,implementation
+P01,mutational-prior proxy,sequence accessibility,approximates accessibility from sequence composition and grammar-derived features
+P02,selection-potential proxy,regulatory preference,approximates regulatory preference from sequence-to-output relationships
+P03,latent-state/operator proxy,latent regulatory structure,diagnostic latent representation of sequence-context structure
+P04,observable-alignment proxy,measured output alignment,links proxy representation to promoter/MPRA outputs
+P05,uncertainty/acquisition proxy,uncertainty-guided ranking,uses prediction dispersion or repeated summaries to rank informative cases

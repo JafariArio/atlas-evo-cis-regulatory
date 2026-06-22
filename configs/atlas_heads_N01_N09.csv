@@ -1,0 +1,10 @@
+code,head,role
+N01,T04 observable-alignment ExtraTrees,nonlinear head on observable-alignment proxy
+N02,T04 observable-alignment HistGB,boosted head on observable-alignment proxy
+N03,T05 uncertainty-ensemble ExtraTrees,tree head on uncertainty/acquisition proxy
+N04,T05 uncertainty-ensemble HistGB,boosted head on uncertainty/acquisition proxy
+N05,T02 selection-potential HistGB,boosted head on selection-potential proxy
+N06,ATLAS T04 observable-alignment MLP,MLP head attached to observable-alignment proxy features
+N07,ATLAS T05 uncertainty-ensemble MLP,MLP head attached to uncertainty-ensemble proxy features
+N08,ATLAS T02 selection-potential MLP,MLP residual head attached to selection-potential proxy features
+N09,ATLAS full-theory MLP,full feature/proxy matrix with MLP head

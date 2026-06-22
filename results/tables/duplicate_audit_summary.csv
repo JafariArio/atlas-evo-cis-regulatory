@@ -1,0 +1,4 @@
+leakage_or_duplication_risk,n_pairs,max_seq_jaccard,max_overlap_fraction_smaller,median_overlap_fraction_smaller
+duplicate_or_near_duplicate,201,1.0,1.0,0.0
+high_overlap_related,20,0.0528712179825131,0.5567010309278351,0.0
+possible_related,64,0.265139844728493,0.4788707159128721,0.0

@@ -1,0 +1,10 @@
+code,model,role
+B01,Ridge regression,linear regularized baseline
+B02,ElasticNet regression,sparse linear baseline
+B03,Nystroem kernel ridge,approximate RBF kernel control
+B04,ExtraTrees regression,tree-ensemble nonlinear baseline
+B05,Random forest regression,bagged tree ensemble
+B06,Histogram gradient boosting regression,boosted-tree nonlinear baseline
+B07,Nystroem SVR-like head,approximate support-vector-style baseline
+B08,MLPRegressor,external nonlinear model-ceiling control
+B08B,External MLP reproducer/control,separate reproducer/control head

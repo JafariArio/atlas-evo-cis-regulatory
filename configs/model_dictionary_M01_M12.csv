@@ -1,0 +1,13 @@
+code,model_identifier,short_label,feature_scope
+M01,M01_GC_length,GC + length,baseline sequence composition
+M02,M02_GC_length_char6,GC + length + 6-mer,adds local 6-mer grammar
+M03,M03_GC_length_multi_char6,GC + length + multi-6-mer,selected multi-6-mer interactions
+M04,M04_GC_length_windowed_char6,windowed 6-mer grammar,positional/windowed 6-mer features
+M05,M05_GC_length_windowed_multi_char6,windowed multi-6-mer grammar,windowed grammar with interactions
+M06,M06_GC_length_condition_gated_char6,condition-gated 6-mer grammar,condition-gated local 6-mer features
+M07,M07_GC_length_condition_gated_multi_char6,condition-gated multi-6-mer grammar,condition-gated interaction features
+M08,M08_dynamic_condition_weighted_char6,dynamic condition-weighted 6-mer,dynamic context-aware 6-mer features
+M09,M09_dynamic_condition_weighted_multi_char6,dynamic condition-weighted multi-6-mer,dynamic context-aware interaction features
+M10,M10_residual_rescue_char6,residual-rescue 6-mer,residual-rescue local 6-mer model
+M11,M11_residual_rescue_multi_char6,residual-rescue multi-6-mer,residual-rescue interaction model
+M12,M12_residual_rescue_condition_gated,residual-rescue condition-gated grammar,residual-rescue condition-gated model
