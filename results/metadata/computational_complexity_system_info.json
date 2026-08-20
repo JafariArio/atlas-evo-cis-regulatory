@@ -1,0 +1,16 @@
+{
+  "platform": "Windows 11",
+  "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+  "physical_cpu_cores": 8,
+  "logical_cpu_cores": 16,
+  "total_ram_gb": 31.2789,
+  "python": "3.13.12",
+  "numpy": "2.4.4",
+  "pandas": "3.0.1",
+  "scikit_learn": "1.8.0",
+  "n_jobs_cap": 8,
+  "benchmark_track": "Random_Promoter_DREAM_base_track_2",
+  "requested_sizes": [5000, 10000, 25000, 50000],
+  "repeats": 3,
+  "scope_note": "Computational timing and resource assessment only; no biological or transfer-facing performance claims."
+}
