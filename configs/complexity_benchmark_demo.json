@@ -1,0 +1,15 @@
+{
+  "tracks": [
+    {
+      "enabled": true,
+      "track_name": "demo_complexity_track",
+      "input_csv": "../data/demo/complexity_demo.csv",
+      "seq_col": "sequence",
+      "target_col": "target",
+      "condition_col": "condition",
+      "split_col": "split",
+      "id_col": "id",
+      "source_role": "synthetic smoke-test input only"
+    }
+  ]
+}
