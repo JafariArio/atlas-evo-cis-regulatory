@@ -1,0 +1,8 @@
+﻿stage,model_id,model_label,n_sizes,empirical_time_exponent,loglog_fit_r2,interpretation
+combined_grammar_proxy_feature_construction,,,4,1.122037868740097,0.9988014080345534,time approximately proportional to n^exponent over the measured range
+data_loading_and_cleaning,,,4,1.067561763011532,0.9990146164083151,time approximately proportional to n^exponent over the measured range
+model_fit_and_prediction,N09_ATLAS_FullTheory_MLP,Combined grammar/proxy MLP,4,0.7829313422276493,0.9828407511260477,time approximately proportional to n^exponent over the measured range
+model_fit_and_prediction,Representative_ExtraTrees,Representative tree-ensemble head,4,1.5441299336794527,0.9935893280493331,time approximately proportional to n^exponent over the measured range
+model_fit_and_prediction,Representative_HistGradientBoosting,Representative boosting head,4,0.2716736475571211,0.7791894458373949,time approximately proportional to n^exponent over the measured range
+model_fit_and_prediction,Representative_Ridge,Representative linear head,4,0.690359538745777,0.9757245499126798,time approximately proportional to n^exponent over the measured range
+sequence_hash_and_exact_duplicate_check,,,4,1.1420619738705988,0.9914649162195398,time approximately proportional to n^exponent over the measured range

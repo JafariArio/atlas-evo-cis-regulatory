@@ -1,0 +1,11 @@
+﻿component,time_complexity,memory_complexity,notes
+Track documentation and tier assignment,O(T + R),O(T + R),T tracks and R model-track result records.
+"Sequence normalization, hashing, and exact duplicate check",O(n*l),O(n),n sequences with mean length l; expected hash-table lookup is O(1).
+6-mer counting,O(n*l),O(nnz) sparse; O(n*d) after dense selection,d selected grammar features; full 6-mer vocabulary is fixed at 4^6.
+Selected interaction construction,O(n*q),O(n*q),q retained multi-6-mer interactions (capped at 512 in the reported configuration).
+Condition representation,O(n*c),O(n*c) dense or O(nnz) sparse,c observed context categories.
+Ridge/linear head,solver-dependent; approximately O(n*d^2 + d^3) for dense normal-equation solvers,O(n*d + d^2),Iterative solvers may approach O(iterations*n*d).
+Tree-ensemble head,approximately O(t*n*d*log n),approximately O(t*n),t trees; implementation and feature subsampling affect constants.
+Combined grammar/proxy MLP head,O(e*n*sum(h_j*h_(j+1))),O(n*d + sum(h_j*h_(j+1))),e training epochs/iterations and layer widths h_j; early stopping can reduce e.
+Uncertainty ensemble,O(m*C_fit),O(C_model + m*n_test),m fitted ensemble members and base-model fitting cost C_fit.
+Bootstrap confidence interval,O(B*n_test),O(n_test),B bootstrap resamples; excluded from the controlled model-fitting benchmark.
